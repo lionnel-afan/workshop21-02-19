@@ -1,3 +1,6 @@
+
+
+
 module.exports = class Chat {
 
     constructor (username) {
@@ -7,6 +10,5 @@ module.exports = class Chat {
     sayHello() {
         return "Hello " + this.username;
     }
-
 
 }
