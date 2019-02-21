@@ -1,0 +1,36 @@
+.app {
+    background-color: #282c34;
+    height: 100vh;
+    color: white;
+}
+
+.message-list {
+    list-style: none;
+    color: white;
+    border: 1px solid #444444;
+    margin-top: 10%;
+    text-align: left;
+    padding-inline-start: 10px;
+    padding: 16px;
+    max-height: 75vh;
+    height: 75vh;
+    overflow: auto;
+    li {
+        margin-top: 4px;
+        margin-bottom: 4px;
+    }
+    .owner {
+        font-size: 12px;
+    }
+    .message {
+        padding: 5px 0px;
+        span {
+            border-radius: 5px;
+            background: #202020;
+            color: white;
+            width: auto;
+            border: 1px solid #2f2f2f;
+            padding: 4px 8px;
+        }
+    }
+}
